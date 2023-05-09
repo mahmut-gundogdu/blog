@@ -112,5 +112,7 @@ Böyle generate edecektir. Göreceğiniz üzere MyBaseService import edilmemiş.
 
 Not: Burada nx generator angular schematics kullanıyor ve onu extend edip mono repoya uygun olarak calıstırıyor. Herhangi bir text generator göre bu yapının oldukça farklı yonleri var. Örneğin MyBaseService bir paketten veya path den import edebilirdik. Create esnasında herhangi bir hata olursa mevcut dosyaları bozmuyor cünkü başarılı olana kadar bir tür sandbox da calısıyor. Bir angular dev olarak kod oluşturucuları öğrenmek size hız kazandıracak, sıkıcı işleri ve tekrar eden işleri ona yaptırabilirsiniz.
 
+Yazının örnek kodları: [https://github.com/mahmut-gundogdu/nx-plugin-code-generator-example](https://github.com/mahmut-gundogdu/nx-plugin-code-generator-example)
+
 Ref:  
 [https://nx.dev/plugins/recipes/local-generators](https://nx.dev/plugins/recipes/local-generators)

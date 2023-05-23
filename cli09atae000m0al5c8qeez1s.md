@@ -11,18 +11,21 @@ Merhaba bugun expo + expo router ile RN de Dosya bazli routing nasil yaptigimizi
 
 Ornek uygulamizi olusturuyoruz.
 
-$ \`npx create-expo-app my-app\`
+```bash
+npx create-expo-app my-app
+```
 
 expo-router her ne kadar tek paket gibi gorunse de alsinda bunlar aşiret. Hemen bu dostlarimizi projemize cagiriyoruz.
 
-  
-$ \`npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar react-native-gesture-handler\`
+```bash
+ npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar react-native-gesture-handler
+```
 
 Route islemini expo-router yapabilmesi icin app bootstrap etme gorevini da ona veriyoruz. `package.json` gelip index.js ile degistiryoruz.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1684838189495/78678c0d-34c8-4d31-a994-2f0e69d7ff19.png align="center")
 
-tabi bir adet projemize index.js ekliyoruz.
+Tabi bir adet projemize index.js ekliyoruz.
 
 ```javascript
 // index.js
@@ -168,6 +171,5 @@ export function Layout() {
 
 Umarim aciklayici olabilmistir. Herhangi bir sorunuz olursa lutfen bana ulasmaktan cekinmeyin. Happy coding.
 
-  
 Uygulamanin tum kodlari.  
 [https://github.com/mahmut-gundogdu/expo-router-example-app](https://github.com/mahmut-gundogdu/expo-router-example-app)

@@ -37,3 +37,5 @@ By merging these three sources, the `status$` Observable will emit the current i
 
 the Example app:  
 [https://stackblitz.com/edit/stackblitz-starters-thscwg?file=src%2Fnetwork-status.service.ts](https://stackblitz.com/edit/stackblitz-starters-thscwg?file=src%2Fnetwork-status.service.ts)
+
+Thanks to **Sinan Ozturk.** He handled the task. i just wrote a note for the future as reminder
